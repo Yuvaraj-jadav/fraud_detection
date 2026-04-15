@@ -1,0 +1,37 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Editor and OS files
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Logs and runtime files
+logs/
+*.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data and Models (Do NOT push to GitHub)
+data/
+models/
+results/
+
+# Ignore large PDFs (unless you want the presentation uploaded)
+*.pdf
+!project_final_presentation.pdf
+
+# Output Logs
+commands.text
+project_run_output.log
