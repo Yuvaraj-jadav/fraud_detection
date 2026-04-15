@@ -117,7 +117,10 @@ source venv/bin/activate
 
 ### 2. Prepare Data
 
-Ensure raw datasets are in `data/raw/train/` and `data/raw/test/`. Then standardize:
+**Download the Data & Pre-trained Models here:**
+👉 [Google Drive: Fraud Detection Datasets & Models](https://drive.google.com/drive/folders/15NuQNq8OexMMbajzF1CgJoQsP1uzajOa?usp=sharing)
+
+Extract the downloaded folders so that the raw datasets are located in `data/` and the pre-trained models are in `models/`. Then standardize the data:
 
 ```bash
 ./venv/bin/python src/processing/unify_columns.py
