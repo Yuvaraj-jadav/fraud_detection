@@ -1,0 +1,6 @@
+Algorithm,Accuracy,Precision,Recall,F1-Score
+Isolation Forest + Logistic,0.9403,0.0375,0.007433102081268583,0.01240694789081886
+XGBoost,0.94955,0.0,0.0,0.0
+SVM,0.949525,0.0,0.0,0.0
+Autoencoder,0.90455,0.05,0.049554013875123884,0.049776007964161276
+Combined Ensemble (Double-Check),0.94955,0.0,0.0,0.0
