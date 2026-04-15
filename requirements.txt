@@ -5,3 +5,6 @@ tensorflow
 pyspark
 streamlit
 imbalanced-learn
+matplotlib
+numpy
+kafka-python
